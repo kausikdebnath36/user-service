@@ -1,9 +1,8 @@
 package com.debnath.user.controller;
 
-import com.debnath.user.service.UserServiceImpl;
+import com.debnath.user.service.Impl.UserServiceImpl;
 import com.debnath.user.dto.UserDto;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 

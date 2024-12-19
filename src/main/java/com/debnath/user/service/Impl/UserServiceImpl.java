@@ -1,9 +1,10 @@
-package com.debnath.user.service;
+package com.debnath.user.service.Impl;
 
 import com.debnath.user.dto.UserDto;
 import com.debnath.user.entity.User;
 import com.debnath.user.mapper.UserMapper;
 import com.debnath.user.repository.UserRepository;
+import com.debnath.user.service.UserService;
 import lombok.extern.slf4j.Slf4j;
 import org.slf4j.Logger;
 import org.springframework.stereotype.Service;
